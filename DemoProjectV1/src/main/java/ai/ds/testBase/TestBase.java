@@ -50,7 +50,7 @@ public class TestBase {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		}
-		else if(br.equalsIgnoreCase("firefox"))
+		else if(br.equalsIgnoreCase("FIREFOX"))
 		{
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
